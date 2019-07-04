@@ -1,0 +1,145 @@
+a {
+    color: inherit;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#banner_container {
+    height: 6vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#banner {
+    height: 6vw;
+    width: 100%;
+    background-color: white;
+    white-space: nowrap;
+    display: table;
+    font-size: 4vw;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.center_horizontal {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%)
+}
+
+.center_vertical {
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%)
+}
+
+#container {
+    height: auto;
+    width: 60vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0;
+    margin: 0 0;
+}
+
+.content {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+    line-height: 1.25;
+    background-color: transparent;
+    font-family: "Tahoma", Geneva, sans-serif;
+}
+
+.date {
+    font-size: 2vw;
+    background-color: transparent;
+    font-family: "Tahoma", Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    float: left;
+    text-align: left;
+}
+
+.entry {
+    background-color: white;
+}
+
+/*.entry:hover {
+    background-color: grey;
+}*/
+
+.header {
+    background-color: transparent;
+}
+
+.header:hover {
+    cursor: pointer;
+}
+
+html {
+    overflow-y:scroll;
+}
+
+.space {
+    height: 1vw;
+    width: inherit;
+    clear: both;
+}
+
+sup {
+    font-size: 0.875vw;
+    vertical-align: super;
+    line-height: 0;
+}
+
+.text {
+    display: table-cell;
+    font-family: "Tahoma", Geneva, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    color: black;
+}
+
+.title {
+    font-size: 2vw;
+    background-color: transparent;
+    font-family: "Tahoma", Geneva, sans-serif;
+    margin: 0;
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
+.underline {
+    height: 1px;
+    width: inherit;
+    background-color: black;
+    margin: 0 auto;
+    clear: both;
+}
+
+.writing {
+    font-size: 1.25vw;
+    color: black;
+    font-family: "Tahoma", Geneva, sans-serif;
+    text-align: justify;
+    width: inherit;
+    margin: 0 auto;
+}
